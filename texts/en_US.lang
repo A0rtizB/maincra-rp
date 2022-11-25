@@ -1,3 +1,4 @@
+####Advanced Machinery
 tile.vatonage:lava_generator.name=Lava Generator §a30 RF/s
 entity.vatonage:power_core.name=Power Core
 item.spawn_egg.entity.vatonage:power_core.name=Power Core
@@ -31,3 +32,9 @@ tile.vatonage:drying_rack.name=Drying Rack
 tile.vatonage:advancedconveyor.name=Advanced Conveyor
 tile.vatonage:conveyor.name=Conveyor
 tile.vatonage:block_breaker.name=Block Breaker §425 RF/s
+####Machinery Weapons
+tile.vatonage:alloy_smelter.name=Alloy Smelter
+tile.vatonage:fuel_generator.name=Jetpack Fuel Generator §410 RF/s
+tile.vatonage:healing_beacon.name=Healing Beacon §430 RF/s
+tile.vatonage:mobility_beacon.name=Mobility Beacon §430 RF/s
+tile.vatonage:saturation_beacon.name=Saturation Beacon §430 RF/s

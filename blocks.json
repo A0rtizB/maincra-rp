@@ -1,5 +1,6 @@
 {
   "format_version": [ 0, 0, 1 ],
+  //Advanced Machinery
   "vatonage:drying_rack": {
     "textures": "drying_rack",
     "sound": "wood"
@@ -151,5 +152,26 @@
   "vatonage:steam": {
     "textures": "steam",
     "sound": "stone"
+  },
+  //Machinery Weapons
+  "vatonage:alloy_smelter": {
+    "textures": "alloy_smelter",
+    "sound": "metal"
+  },
+  "vatonage:fuel_generator": {
+    "textures": "fuel_generator",
+    "sound": "metal"
+  },
+  "vatonage:healing_beacon": {
+    "textures": "healing_beacon",
+    "sound": "metal"
+  },
+  "vatonage:mobility_beacon": {
+    "textures": "mobility_beacon",
+    "sound": "metal"
+  },
+  "vatonage:saturation_beacon": {
+    "textures": "saturation_beacon",
+    "sound": "metal"
   }
 }
