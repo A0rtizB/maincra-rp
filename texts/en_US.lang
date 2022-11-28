@@ -32,6 +32,14 @@ tile.vatonage:drying_rack.name=Drying Rack
 tile.vatonage:advancedconveyor.name=Advanced Conveyor
 tile.vatonage:conveyor.name=Conveyor
 tile.vatonage:block_breaker.name=Block Breaker §425 RF/s
+####Advanced Machinery Expansion
+item.spawn_egg.entity.amep:teleport_pylon.name=Pylon §4500 RF/teleport
+item.spawn_egg.entity.amep:battery0.name=Battery §aHolds 500,000 RF
+tile.amep:cable.name=Power Cable
+tile.amep:transfer_cable.name=Power Transfer Cable §aTransfer: 28 RF/s
+tile.amep:transfer_cable2.name=Advanced Power Transfer Cable §aTransfer: 85 RF/s
+tile.amep:conveyor_slope.name=Conveyor Slope
+tile.amep:advancedconveyor_slope.name=Advanced Conveyor Slope
 ####Machinery Weapons
 tile.vatonage:alloy_smelter.name=Alloy Smelter
 tile.vatonage:fuel_generator.name=Jetpack Fuel Generator §410 RF/s
