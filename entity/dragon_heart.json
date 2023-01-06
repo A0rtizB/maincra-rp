@@ -1,0 +1,28 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "vatonage:dragon_heart",
+      "materials": {
+         "default": "zombie"
+      },
+      "textures": {
+        "default": "textures/entity/dragon_heart"
+      },
+      "geometry": {
+        "default": "geometry.dragon_heart"
+      },
+      "animation_controllers": [
+        { "spin": "controller.animation.spinning" }
+      ],
+      "animations": {
+        "spin": "animation.dragon_heart_walk"
+      },
+      "render_controllers": [ "controller.render.default" ],
+      "spawn_egg": {
+        "base_color": "#000000",
+        "overlay_color": "#FFFFFF"
+      }
+    }
+  }
+}

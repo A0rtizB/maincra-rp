@@ -127,6 +127,52 @@
 		"radiation_shield": {
 			"textures": "textures/items/radiation_shield"
 		},
+      //Industrial Machinery
+      "spawn_draconic_infuser": {
+         "textures": "textures/items/spawn_draconic_infuser"
+      },
+      "spawn_draconic_generator": {
+         "textures": "textures/items/spawn_draconic_generator"
+      },
+      "spawn_awakened_draconic_generator": {
+         "textures": "textures/items/spawn_awakened_draconic_generator"
+      },
+      "awakened_draconium_cannon": {
+         "textures": "textures/items/awakened_draconium_cannon"
+      },
+      "draconium_cannon": {
+         "textures": "textures/items/draconium_cannon"
+      },
+      "awakened_draconium_sword": {
+         "textures": "textures/items/awakened_draconium_sword"
+      },
+      "draconium_sword": {
+         "textures": "textures/items/draconium_sword"
+      },
+      "awakened_draconium_ingot": {
+         "textures": "textures/items/awakened_draconium_ingot"
+      },
+      "draconium_ingot": {
+         "textures": "textures/items/draconium_ingot"
+      },
+      "draconium_battery": {
+         "textures": "textures/items/draconium_battery"
+      },
+      "dragon_heart": {
+         "textures": "textures/items/dragon_heart"
+      },
+      "battery_exoskeleton": {
+         "textures": "textures/items/battery_exoskeleton"
+      },
+      "defense_exoskeleton": {
+         "textures": "textures/items/defense_exoskeleton"
+      },
+      "movement_exoskeleton": {
+         "textures": "textures/items/movement_exoskeleton"
+      },
+      "saturation_exoskeleton": {
+         "textures": "textures/items/saturation_exoskeleton"
+      },
       //Machinery Weapons
       "spawn_drying_rack": {
        "textures": "textures/items/spawn_drying_rack"

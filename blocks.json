@@ -505,6 +505,31 @@
 		"textures": "connector_cableV",
 		"sound": "stone"
 	},
+	//Industrial Machinery
+	"vatonage:awakened_draconium_block": {
+		"textures": "awakened_draconium_block",
+		"sound": "metal"
+	  },
+	  "vatonage:draconium_ore": {
+		"textures": "draconium_ore",
+		"sound": "stone"
+	  },
+	  "vatonage:draconium_block": {
+		"textures": "draconium_block",
+		"sound": "metal"
+	  },
+	  "vatonage:awakened_draconic_generator": {
+		"textures": "awakened_draconic_generator",
+		"sound": "metal"
+	  },
+	  "vatonage:draconic_generator": {
+		"textures": "draconic_generator",
+		"sound": "metal"
+	  },
+	  "vatonage:draconic_infuser": {
+		"textures": "draconic_infuser",
+		"sound": "metal"
+	  },
   //Machinery Weapons
   "vatonage:alloy_smelter": {
     "textures": "alloy_smelter",

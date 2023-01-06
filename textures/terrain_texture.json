@@ -4,7 +4,7 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
-    //Advanced Machinery
+    	//Advanced Machinery
 		"block_placer": {
 			"textures": "textures/blocks/block_placer"
 		},
@@ -276,6 +276,25 @@
 		"conveyorsloped2": {
 			"textures": "textures/blocks/vatonageconveyorsloped2"
 		},
+		//Industrial Machinery
+		"awakened_draconium_block": {
+			"textures": "textures/blocks/awakened_draconium_block"
+		  },
+		  "draconium_ore": {
+			"textures": "textures/blocks/draconium_ore"
+		  },
+		  "draconium_block": {
+			"textures": "textures/blocks/draconium_block"
+		  },
+		  "awakened_draconic_generator": {
+			"textures": "textures/blocks/awakened_draconic_generator"
+		  }, 
+		  "draconic_generator": {
+			"textures": "textures/blocks/draconic_generator"
+		  },
+		  "draconic_infuser": {
+			"textures": "textures/blocks/draconic_infuser"
+		  },
     	//Machinery Weapons
 		"alloy_smelter": {
 			"textures": "textures/blocks/alloy_smelter"

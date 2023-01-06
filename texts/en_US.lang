@@ -40,6 +40,27 @@ tile.amep:transfer_cable.name=Power Transfer Cable §aTransfer: 28 RF/s
 tile.amep:transfer_cable2.name=Advanced Power Transfer Cable §aTransfer: 85 RF/s
 tile.amep:conveyor_slope.name=Conveyor Slope
 tile.amep:advancedconveyor_slope.name=Advanced Conveyor Slope
+####Industrial Machinery
+entity.vatonage:dragon_heart.name=Dragon Heart
+item.spawn_egg.entity.vatonage:dragon_heart.name=Spawn Dragon Heart
+tile.vatonage:awakened_draconium_block.name=Awakened Draconium Block
+tile.vatonage:draconium_ore.name=Draconium Ore
+tile.vatonage:draconium_block.name=Draconium Block
+tile.vatonage:awakened_draconic_generator.name=Awakened Draconic Generator
+tile.vatonage:draconic_generator.name=Draconic Generator
+tile.vatonage:draconic_infuser.name=Draconic Infuser
+item.vatonage:awakened_draconium_cannon.name=Awakened Draconium Cannon
+item.vatonage:draconium_cannon.name=Draconium Cannon
+item.vatonage:awakened_draconium_sword.name=Awakened Draconium Sword
+item.vatonage:draconium_sword.name=Draconium Sword
+item.vatonage:awakened_draconium_ingot.name=Awakened Draconium Ingot
+item.vatonage:draconium_ingot.name=Draconium Ingot
+item.vatonage:draconium_battery.name=Draconium Battery
+item.vatonage:dragon_heart.name=Dragon Heart
+item.vatonage:battery_exoskeleton.name=Battery Exoskeleton
+item.vatonage:defense_exoskeleton.name=Defense Exoskeleton
+item.vatonage:movement_exoskeleton.name=Movement Exoskeleton
+item.vatonage:saturation_exoskeleton.name=Saturation Exoskeleton
 ####Machinery Weapons
 tile.vatonage:alloy_smelter.name=Alloy Smelter
 tile.vatonage:fuel_generator.name=Jetpack Fuel Generator §410 RF/s
