@@ -1,0 +1,19 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "im:item_sorter",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/machines/item_sorter"
+      },
+      "geometry": {
+        "default": "geometry.item_sorter"
+      },
+      "render_controllers": [ "controller.render.im.default" ],
+      "enable_attachables": true
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.oil_generator",
+				"texture_width": 80,
+				"texture_height": 80,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "stand",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, -1, 6], "size": [2, 25, 2], "pivot": [-0.5, 0, 7.5], "rotation": [10, 0, 0], "uv": [8, 8]},
+						{"origin": [-1, -1, -8], "size": [2, 25, 2], "pivot": [-0.5, 0, -7.5], "rotation": [-10, 0, 0], "uv": [0, 8]}
+					]
+				},
+				{
+					"name": "pump",
+					"parent": "root",
+					"pivot": [0, 23, 0],
+					"cubes": [
+						{"origin": [-16, 21, -2], "size": [31, 4, 4], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "front",
+					"parent": "pump",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-16, 25, -2], "size": [4, 1, 4], "uv": [20, 13]},
+						{"origin": [-17, 20, -2], "size": [1, 6, 4], "uv": [20, 18]},
+						{"origin": [-18, 21, -2], "size": [1, 4, 4], "uv": [30, 30]},
+						{"origin": [-19, 22, -2], "size": [1, 2, 4], "uv": [16, 34]},
+						{"origin": [-15, 26, -2], "size": [3, 1, 4], "uv": [20, 29]},
+						{"origin": [-14, 27, -2], "size": [2, 1, 4], "uv": [32, 9]},
+						{"origin": [-13, 28, -2], "size": [1, 1, 4], "uv": [6, 36]}
+					]
+				},
+				{
+					"name": "frontbottom",
+					"parent": "front",
+					"pivot": [-14, 19.75, 0],
+					"rotation": [0, 0, -90],
+					"cubes": [
+						{"origin": [-16.75, 17.75, -2], "size": [4, 1, 4], "uv": [20, 8]},
+						{"origin": [-15.75, 18.75, -2], "size": [3, 1, 4], "uv": [26, 24]},
+						{"origin": [-14.75, 19.75, -2], "size": [2, 1, 4], "uv": [30, 18]},
+						{"origin": [-13.75, 20.75, -2], "size": [1, 1, 4], "uv": [0, 35]}
+					]
+				},
+				{
+					"name": "string",
+					"parent": "root",
+					"pivot": [-14, 18, -0.5],
+					"cubes": [
+						{"origin": [-15, -1, -0.5], "size": [1, 28, 1], "uv": [16, 8]}
+					]
+				}
+			]
+		}
+	]
+}

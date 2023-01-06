@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "im:power_distributer",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/power_distributer"
+      },
+      "geometry": {
+        "default": "geometry.power_distributer"
+      },
+      "scripts": {
+        "animate": [
+          "idle"
+        ]
+      },
+      "animations": {
+        "idle": "animation.power_distributer.idle"
+      },
+      "render_controllers": [ "controller.render.im.default" ],
+      "enable_attachables": true
+    }
+  }
+}

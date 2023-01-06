@@ -276,7 +276,7 @@
 		"conveyorsloped2": {
 			"textures": "textures/blocks/vatonageconveyorsloped2"
 		},
-		//Industrial Machinery
+		//Draconic Evolution
 		"awakened_draconium_block": {
 			"textures": "textures/blocks/awakened_draconium_block"
 		  },
@@ -295,6 +295,67 @@
 		  "draconic_infuser": {
 			"textures": "textures/blocks/draconic_infuser"
 		  },
+		  //Industrial Machinery
+		  "item_pipe": {
+            "textures": "textures/blocks/item_pipe"
+        },
+        "item_pipe_u": {
+            "textures": "textures/blocks/item_pipe_v_u"
+        },
+        "item_pipe_d": {
+            "textures": "textures/blocks/item_pipe_v_d"
+        },
+        "connector_pipe": {
+            "textures": "textures/blocks/connector_pipe"
+        },
+        "connector_pipe_v": {
+            "textures": "textures/blocks/connector_pipe_v"
+        },
+        "drill_1": {
+            "textures": "textures/machines/drill/drill_1"
+        },
+        "drill_2": {
+            "textures": "textures/machines/drill/drill_2"
+        },
+        "drill_3": {
+            "textures": "textures/machines/drill/drill_3"
+        },
+        "drill_4": {
+            "textures": "textures/machines/drill/drill_4"
+        },
+        "pulverizer": {
+            "textures": "textures/machines/pulverizer"
+        },
+        "solar_panel_1": {
+            "textures": "textures/machines/solar_panel/solar_panel_1"
+        },
+        "solar_panel_2": {
+            "textures": "textures/machines/solar_panel/solar_panel_2"
+        },
+        "solar_panel_3": {
+            "textures": "textures/machines/solar_panel/solar_panel_3"
+        },
+        "solar_panel_4": {
+            "textures": "textures/machines/solar_panel/solar_panel_4"
+        },
+        "power_distributer": {
+            "textures": "textures/power_distributer"
+        },
+        "quantum_quarry": {
+            "textures": "textures/machines/quantum_quarry"
+        },
+        "redstone_furnace": {
+            "textures": "textures/machines/redstone_furnace"
+        },
+        "item_sorter": {
+            "textures": "textures/machines/item_sorter"
+        },
+        "oil_generator_1": {
+            "textures": "textures/machines/oil_generator/oil_generator_1"
+        },
+        "oil_generator_2": {
+            "textures": "textures/machines/oil_generator/oil_generator_2"
+        },
     	//Machinery Weapons
 		"alloy_smelter": {
 			"textures": "textures/blocks/alloy_smelter"

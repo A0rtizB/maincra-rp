@@ -127,7 +127,7 @@
 		"radiation_shield": {
 			"textures": "textures/items/radiation_shield"
 		},
-      //Industrial Machinery
+      //Draconic Evolution
       "spawn_draconic_infuser": {
          "textures": "textures/items/spawn_draconic_infuser"
       },
@@ -173,6 +173,16 @@
       "saturation_exoskeleton": {
          "textures": "textures/items/saturation_exoskeleton"
       },
+      //Industrial Machinery
+      "pulverized_iron": {
+         "textures": "textures/items/pulverized_iron"
+     },
+     "pulverized_gold": {
+         "textures": "textures/items/pulverized_gold"
+     },
+     "pulverized_copper": {
+         "textures": "textures/items/pulverized_copper"
+     },
       //Machinery Weapons
       "spawn_drying_rack": {
        "textures": "textures/items/spawn_drying_rack"

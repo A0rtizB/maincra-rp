@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.drill": {
+			"arrays": {
+				"textures": {
+					"Array.textures": [
+						"Texture.level1",
+						"Texture.level2",
+						"Texture.level3",
+						"Texture.level4"
+					]
+				}
+			},
+
+
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"textures": [
+				"Array.textures[query.mark_variant]"
+			],
+
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		}
+	}
+}

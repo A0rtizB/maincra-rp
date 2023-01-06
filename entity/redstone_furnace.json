@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "im:redstone_furnace",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/machines/redstone_furnace"
+      },
+      "geometry": {
+        "default": "geometry.redstone_furnace"
+      },
+      "scripts": {
+        "animate": [
+          { "east": "query.variant == 1" },
+          { "south": "query.variant == 2" },
+          { "west": "query.variant == 3" }
+        ]
+      },
+      "animations": {
+        "east": "animation.im.rot.y90",
+        "south": "animation.im.rot.y180",
+        "west": "animation.im.rot.y-90"
+      },
+      "render_controllers": [ "controller.render.im.default" ],
+      "enable_attachables": true
+    }
+  }
+}

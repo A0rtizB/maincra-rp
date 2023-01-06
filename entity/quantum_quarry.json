@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "im:quantum_quarry",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/machines/quantum_quarry"
+      },
+      "geometry": {
+        "default": "geometry.quantum_quarry"
+      },
+      "scripts": {
+        "animate": [
+          "drilling"
+        ]
+      },
+      "animations": {
+        "drilling": "animation.drill.drilling"
+      },
+      "render_controllers": [ "controller.render.im.default" ],
+      "enable_attachables": true
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "im:pulverizer",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/machines/pulverizer"
+      },
+      "geometry": {
+        "default": "geometry.pulverizer"
+      },
+      "scripts": {
+        "animate": [
+          "idle",
+          { "east": "query.variant == 1" },
+          { "south": "query.variant == 2" },
+          { "west": "query.variant == 3" }
+        ]
+      },
+      "animations": {
+        "idle": "animation.pulverizer.pulverize",
+        "east": "animation.im.rot.y90",
+        "south": "animation.im.rot.y180",
+        "west": "animation.im.rot.y-90"
+      },
+      "render_controllers": [ "controller.render.im.default" ],
+      "enable_attachables": true
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "im:solar_panel",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "level1": "textures/machines/solar_panel/solar_panel_1",
+        "level2": "textures/machines/solar_panel/solar_panel_2",
+        "level3": "textures/machines/solar_panel/solar_panel_3",
+        "level4": "textures/machines/solar_panel/solar_panel_4"
+      },
+      "geometry": {
+        "default": "geometry.solar_panel"
+      },
+      "scripts": {
+        "animate": [
+          { "south": "query.variant == 3" },
+          { "east": "query.variant == 2" },
+          { "north": "query.variant == 1" }
+        ]
+      },
+      "animations": {
+        "south": "animation.im.rot.y-90",
+        "east": "animation.im.rot.y180",
+        "north": "animation.im.rot.y90"
+      },
+      "render_controllers": [ "controller.render.drill" ],
+      "enable_attachables": true
+    }
+  }
+}

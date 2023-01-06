@@ -40,7 +40,7 @@ tile.amep:transfer_cable.name=Power Transfer Cable §aTransfer: 28 RF/s
 tile.amep:transfer_cable2.name=Advanced Power Transfer Cable §aTransfer: 85 RF/s
 tile.amep:conveyor_slope.name=Conveyor Slope
 tile.amep:advancedconveyor_slope.name=Advanced Conveyor Slope
-####Industrial Machinery
+####Draconic Evolution
 entity.vatonage:dragon_heart.name=Dragon Heart
 item.spawn_egg.entity.vatonage:dragon_heart.name=Spawn Dragon Heart
 tile.vatonage:awakened_draconium_block.name=Awakened Draconium Block
@@ -61,6 +61,42 @@ item.vatonage:battery_exoskeleton.name=Battery Exoskeleton
 item.vatonage:defense_exoskeleton.name=Defense Exoskeleton
 item.vatonage:movement_exoskeleton.name=Movement Exoskeleton
 item.vatonage:saturation_exoskeleton.name=Saturation Exoskeleton
+####Industrial Machinery
+## tellraw translation keys
+
+im:message.distributer.name=§l[Power Distributor]
+im:message.distributer.status.1=§l§gFF Stored: §r§e
+im:message.menu.error.creative=§4§l[!] §r§cCannot open menu in creative!
+
+
+## item translation keys
+
+item.im:pulverized_iron=Pulverized Iron
+item.im:pulverized_gold=Pulverized Gold
+item.im:pulverized_copper=Pulverized Copper
+
+
+## block translation keys
+
+tile.im:drill_1.name=Drill Lv. 1 §c50 FF/10s
+tile.im:drill_2.name=Drill Lv. 2 §c50 FF/8s
+tile.im:drill_3.name=Drill Lv. 3 §c50 FF/6s
+tile.im:drill_4.name=Drill Lv. 4 §c50 FF/4s
+
+tile.im:solar_panel_1.name=Solar Panel Lv. 1 §a15 FF/5s
+tile.im:solar_panel_2.name=Solar Panel Lv. 2 §a25 FF/5s
+tile.im:solar_panel_3.name=Solar Panel Lv. 3 §a35 FF/5s
+tile.im:solar_panel_4.name=Solar Panel Lv. 4 §a45 FF/5s
+
+tile.im:oil_generator_1.name=Basic Oil Generator §a80 FF/10s
+tile.im:oil_generator_2.name=Advanced Oil Generator §a120 FF/10s
+
+tile.im:item_pipe.name=Item Pipe
+tile.im:power_distributer.name=Power Distributor
+tile.im:pulverizer.name=Pulverizer §c80 FF/item
+tile.im:quantum_quarry.name=Quantum Quarry §c50 FF/10s
+tile.im:redstone_furnace.name=Redstone Furnace §c20 FF/item
+tile.im:item_sorter.name=Item Sorter
 ####Machinery Weapons
 tile.vatonage:alloy_smelter.name=Alloy Smelter
 tile.vatonage:fuel_generator.name=Jetpack Fuel Generator §410 RF/s

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.oil_generator.idle": {
+			"loop": true,
+			"animation_length": 1.6,
+			"bones": {
+				"pump": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.8": [0, 0, 22.5],
+						"1.6": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

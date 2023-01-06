@@ -1,0 +1,89 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.solar_panel",
+				"texture_width": 80,
+				"texture_height": 80,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "panel",
+					"parent": "root",
+					"pivot": [-0.5, 8.65, 0],
+					"rotation": [0, 0, 30]
+				},
+				{
+					"name": "outerPanel",
+					"parent": "panel",
+					"pivot": [-0.5, 8.65, 0],
+					"cubes": [
+						{"origin": [-8.5, 8.65, -4.6], "size": [1, 1, 9.2], "uv": [0, 29]},
+						{"origin": [7.5, 8.65, -9.6], "size": [1, 1, 19.1], "uv": [0, 0]},
+						{"origin": [-8.3, 8.65, -7], "size": [16.4, 1, 1], "pivot": [-0.5, 9.15, -6.5], "rotation": [0, 17.5, 0], "uv": [21, 13]},
+						{"origin": [-8.55, 8.65, 6], "size": [16.4, 1, 1], "pivot": [-0.5, 9.15, 7.5], "rotation": [0, -17.5, 0], "uv": [21, 15]}
+					]
+				},
+				{
+					"name": "innerPanel",
+					"parent": "panel",
+					"pivot": [-0.5, 8.65, 0],
+					"cubes": [
+						{"origin": [-7.5, 8.65, -4], "size": [15, 1, 8], "uv": [0, 20]},
+						{"origin": [-7.3, 8.65, -6], "size": [15.4, 1, 2], "pivot": [-0.5, 9.15, -6.5], "rotation": [0, 17.5, 0], "uv": [21, 10]},
+						{"origin": [-7.55, 8.65, 4], "size": [15.1, 1, 2], "pivot": [-0.5, 9.15, 7.5], "rotation": [0, -17.5, 0], "uv": [21, 7]},
+						{"origin": [0, 8.65, 4], "size": [7.5, 1, 1], "uv": [0, 2]},
+						{"origin": [0, 8.65, -5], "size": [7.5, 1, 1], "uv": [0, 0]},
+						{"origin": [2.5, 8.65, 5], "size": [5, 1, 1.4], "uv": [4, 6]},
+						{"origin": [2.5, 8.65, -6.45], "size": [5, 1, 1.5], "uv": [4, 4]}
+					]
+				},
+				{
+					"name": "base",
+					"parent": "root",
+					"pivot": [-0.5, 0, 0],
+					"cubes": [
+						{"origin": [-8, 0, -3], "size": [16, 1, 6], "uv": [21, 0]}
+					]
+				},
+				{
+					"name": "legs",
+					"parent": "base",
+					"pivot": [-0.5, 0, 0]
+				},
+				{
+					"name": "leg1",
+					"parent": "legs",
+					"pivot": [-0.5, 0, 0],
+					"cubes": [
+						{"origin": [5.5, 1, -0.5], "size": [1, 4.25, 1], "uv": [8, 8]}
+					]
+				},
+				{
+					"name": "leg2",
+					"parent": "legs",
+					"pivot": [-0.5, 0, 0],
+					"cubes": [
+						{"origin": [-1.5, 1, -0.5], "size": [1, 8.25, 1], "uv": [4, 8]}
+					]
+				},
+				{
+					"name": "leg3",
+					"parent": "legs",
+					"pivot": [-0.5, 0, 0],
+					"cubes": [
+						{"origin": [-6.5, 1, -0.5], "size": [1, 11.6, 1], "uv": [0, 4]}
+					]
+				}
+			]
+		}
+	]
+}

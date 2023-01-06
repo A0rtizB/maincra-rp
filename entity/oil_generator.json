@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "im:oil_generator",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "level1": "textures/machines/oil_generator/oil_generator_1",
+        "level2": "textures/machines/oil_generator/oil_generator_2"
+      },
+      "geometry": {
+        "default": "geometry.oil_generator"
+      },
+      "scripts": {
+        "animate": [
+          "idle",
+          { "east": "query.variant == 1" },
+          { "south": "query.variant == 2" },
+          { "west": "query.variant == 3" }
+        ]
+      },
+      "animations": {
+        "idle": "animation.oil_generator.idle",
+        "east": "animation.im.rot.y90",
+        "south": "animation.im.rot.y180",
+        "west": "animation.im.rot.y-90"
+      },
+      "render_controllers": [ "controller.render.drill" ],
+      "enable_attachables": true
+    }
+  }
+}

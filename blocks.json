@@ -505,7 +505,7 @@
 		"textures": "connector_cableV",
 		"sound": "stone"
 	},
-	//Industrial Machinery
+	//Draconic Evolution
 	"vatonage:awakened_draconium_block": {
 		"textures": "awakened_draconium_block",
 		"sound": "metal"

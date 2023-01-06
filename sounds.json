@@ -1,13 +1,114 @@
 {
   "entity_sounds": {
     "entities": {
+      //Advanced Machinery
       "vatonage:machineloot": {
         "volume": 0,
         "pitch": [ 0.8, 1.2 ],
         "events": {
           "death": "mob.endermen.idle"
         }
-      }
+      },
+      //Industrial Machinery
+      "im:loot": {
+				"pitch": [
+					0.80,
+					1.0
+				],
+				"volume": 0.0,
+				"events": {
+					"hurt": "block.lantern.hit",
+					"death": "block.lantern.break"
+				}
+			},
+			"im:drill": {
+				"pitch": [
+					0.80,
+					1.0
+				],
+				"volume": 1.0,
+				"events": {
+					"hurt": "block.lantern.hit",
+					"death": "block.lantern.break"
+				}
+			},
+			"im:power_distributer": {
+				"pitch": [
+					0.80,
+					1.0
+				],
+				"volume": 1.0,
+				"events": {
+					"hurt": "block.lantern.hit",
+					"death": "block.lantern.break"
+				}
+			},
+			"im:solar_panel": {
+				"pitch": [
+					0.80,
+					1.0
+				],
+				"volume": 1.0,
+				"events": {
+					"hurt": "block.lantern.hit",
+					"death": "block.lantern.break"
+				}
+			},
+			"im:pulverizer": {
+				"pitch": [
+					0.80,
+					1.0
+				],
+				"volume": 1.0,
+				"events": {
+					"hurt": "block.lantern.hit",
+					"death": "block.lantern.break"
+				}
+			},
+			"im:quantum_quarry": {
+				"pitch": [
+					0.80,
+					1.0
+				],
+				"volume": 1.0,
+				"events": {
+					"hurt": "block.lantern.hit",
+					"death": "block.lantern.break"
+				}
+			},
+			"im:redstone_furnace": {
+				"pitch": [
+					0.80,
+					1.0
+				],
+				"volume": 1.0,
+				"events": {
+					"hurt": "block.lantern.hit",
+					"death": "block.lantern.break"
+				}
+			},
+			"im:item_sorter": {
+				"pitch": [
+					0.80,
+					1.0
+				],
+				"volume": 1.0,
+				"events": {
+					"hurt": "block.lantern.hit",
+					"death": "block.lantern.break"
+				}
+			},
+			"im:oil_generator": {
+				"pitch": [
+					0.80,
+					1.0
+				],
+				"volume": 1.0,
+				"events": {
+					"hurt": "block.lantern.hit",
+					"death": "block.lantern.break"
+				}
+			}
     }
   }
 }
